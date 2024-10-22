@@ -5,9 +5,10 @@ let mySet = new Set();
 mySet.add(5);
 mySet.add(10);
 mySet.add(15);
-mySet.add(10); // Phần tử trùng sẽ không được thêm
+mySet.add(10); // Phần tử sẽ nhận 1 giá trị duy nhất 
 mySet.add(20);
 mySet.delete(20);// Xóa phần tử 20
+
 
 // In các phần tử trong Set
 console.log("Các phần tử trong Set:");
@@ -21,3 +22,4 @@ if(mySet.has(check)){
 }else{
     console.log(`Error..`)
 }
+

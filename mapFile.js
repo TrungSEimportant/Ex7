@@ -1,10 +1,12 @@
+//Là một cấu trúc dữ liệu ánh xạ mỗi key tới một value.
+//Key có thể là bất kỳ loại dữ liệu nào (number, string, object), trong khi value có thể là bất kỳ giá trị nào.
 // Tạo map để lưu các giá trị 
 let myMap = new Map();
 // Thêm các phần tử vào Map (Key, value)
 myMap.set('Trung',20);
 myMap.set('Johnny',40);
 myMap.set('Alice',18);
-myMap.set('Johnny',40); // K lặp lại phần tử đã set
+myMap.set('Johnny',40); // Phần tử sẽ nhận 1 giá trị duy nhất 
 myMap.set('Worf',30);
 
 //In các cặp key , value
